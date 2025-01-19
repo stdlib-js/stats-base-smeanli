@@ -1,9 +1,9 @@
-"use strict";var u=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var v=u(function(g,s){
-var t=require('@stdlib/number-float64-base-to-float32/dist'),f=require('@stdlib/blas-ext-base-sapxsum/dist').ndarray;function j(e,r,i){var a;return e<=0?NaN:e===1||i===0?r[0]:(i<0?a=(1-e)*i:a=0,t(r[a]+t(f(e-1,-r[a],r,i,a+i)/e)))}s.exports=j
-});var l=u(function(h,q){
-var o=require('@stdlib/number-float64-base-to-float32/dist'),F=require('@stdlib/blas-ext-base-sapxsum/dist').ndarray;function R(e,r,i,a){return e<=0?NaN:e===1||i===0?r[a]:o(r[a]+o(F(e-1,-r[a],r,i,a+i)/e))}q.exports=R
-});var c=u(function(k,p){
-var T=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),m=v(),_=l();T(m,"ndarray",_);p.exports=m
-});var x=require("path").join,E=require('@stdlib/utils-try-require/dist'),O=require('@stdlib/assert-is-error/dist'),b=c(),n,y=E(x(__dirname,"./native.js"));O(y)?n=b:n=y;module.exports=n;
+"use strict";var u=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var n=u(function(g,v){
+var s=require('@stdlib/number-float64-base-to-float32/dist'),y=require('@stdlib/blas-ext-base-sapxsum/dist').ndarray;function d(e,r,a,i){return e<=0?NaN:e===1||a===0?r[i]:s(r[i]+s(y(e-1,-r[i],r,a,i+a)/e))}v.exports=d
+});var o=u(function(h,q){
+var j=require('@stdlib/strided-base-stride2offset/dist'),f=n();function x(e,r,a){return f(e,r,a,j(e,a))}q.exports=x
+});var c=u(function(k,m){
+var R=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),l=o(),_=n();R(l,"ndarray",_);m.exports=l
+});var E=require("path").join,F=require('@stdlib/utils-try-require/dist'),O=require('@stdlib/assert-is-error/dist'),T=c(),t,p=F(E(__dirname,"./native.js"));O(p)?t=T:t=p;module.exports=t;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
