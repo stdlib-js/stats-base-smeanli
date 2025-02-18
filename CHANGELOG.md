@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-19)
+## Unreleased (2025-02-18)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`3360631`](https://github.com/stdlib-js/stdlib/commit/33606310f07ffc091f401be067c05d82a009d103) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`cbb399f`](https://github.com/stdlib-js/stdlib/commit/cbb399f69098247acb31497af6e1370b51fe285d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanli` [(#4785)](https://github.com/stdlib-js/stdlib/pull/4785) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`5f718b7`](https://github.com/stdlib-js/stdlib/commit/5f718b70ecd483de6fa502efbfed3da4cac79ce2) - **refactor:** update `stats/base/smeanli` native addon from C++ to C [(#4465)](https://github.com/stdlib-js/stdlib/pull/4465) _(by Vivek Maurya)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
